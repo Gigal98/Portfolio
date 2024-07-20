@@ -306,7 +306,7 @@ html{
 }
 @keyframes htmlcss{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 85%;}
 }
 .skills .skill .java{
     width: 0%;
@@ -322,8 +322,50 @@ html{
 }
 @keyframes basesdedatos{
     0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .comunicacion{
+    width: 0;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion{
+    0%{width: 0%}
+    100%{width: 75%;}
+}
+.skills .skill .trabajoEnEquipo{
+    width: 0;
+    animation: 2s trabajoEnEquipo forwards;
+}
+@keyframes trabajoEnEquipo{
+    0%{width: 0%}
+    100%{width: 85%;}
+}
+.skills .skill .creatividad{
+    width: 0;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad{
+    0%{width: 0%}
     100%{width: 90%;}
 }
+.skills .skill .dedicacion{
+    width: 0;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion{
+    0%{width: 0%}
+    100%{width: 70%;}
+}
+.skills .skill .eficiencia{
+    width: 0;
+    animation: 2s eficiencia forwards;
+}
+@keyframes eficiencia{
+    0%{width: 0%}
+    100%{width: 90%;}
+}
+
+
 /* Seccion curriculum */
 
 .curriculum{
@@ -592,7 +634,7 @@ footer .arriba{
     .sobremi .fila{
         display:block;
     }
-    .sobre .fila .col{
+    .sobremi .fila .col{
         width: fit-content;
     }
     .skills .fila{
