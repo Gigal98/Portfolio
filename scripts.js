@@ -10,7 +10,7 @@ function mostrarOcultarMenu(){
     }
 }
 
-function seleccion(){
+function seleccionar(){
     //oculto el menu una vez que selecciono una opcion
     document.querySelector("#nav").classList=""
     menuVisible=false;
