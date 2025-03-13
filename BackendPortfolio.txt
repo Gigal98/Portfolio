@@ -1,0 +1,4 @@
+Backend para portfolio 
+hacer una base de datos.
+ver videos del curso desde la clase 19 
+hacer las dos clases de backend, la conexion a la base de datos y la obtencion de esos gatos con los constructores y getters y setters
